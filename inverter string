@@ -1,0 +1,13 @@
+ const inverterString = (entrada) => {
+   
+    var stringDefault = "";
+ 
+    
+    for (var i = entrada.length - 1; i >= 0; i--) { 
+        stringDefault += entrada[i]; 
+    }
+    
+    return stringDefault
+}
+ 
+console.log(inverterString('palavra'));
